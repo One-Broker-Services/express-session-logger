@@ -1,0 +1,20 @@
+{
+  "name": "express-session-logger",
+  "version": "0.0.1",
+  "main": "./index",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": {
+    "name": "David Estevez",
+    "email": "destevezbreso@gmail.com"
+  },
+  "dependencies": {
+    "@dabh/diagnostics": "^2.0.2",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0",
+    "winston-elasticsearch": "^0.14.0"
+  }
+}
