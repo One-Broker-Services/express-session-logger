@@ -1,20 +1,22 @@
 {
-  "name": "express-session-logger",
+  "name": "@one-broker-services/express-session-logger",
   "version": "0.1.0",
   "main": "./index",
   "license": "MIT",
   "directories": {
     "lib": "lib"
   },
-  "author": {
-    "name": "David Estevez",
-    "email": "destevezbreso@gmail.com"
-  },
+  "author": "David Estevez <destevezbreso@gmail.com>",
   "dependencies": {
     "@dabh/diagnostics": "^2.0.2",
     "uuid": "^9.0.0",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0",
     "winston-elasticsearch": "^0.17.2"
+  },
+  "description": "A simple way for add custom context to all logs into you express session",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
